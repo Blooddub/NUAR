@@ -16,7 +16,7 @@ export default {
     name: 'not-found-view',
     methods: {
         reternlogin() {
-            this.$router.push('/login')
+            this.$router.push('/')
         }
     }
 }

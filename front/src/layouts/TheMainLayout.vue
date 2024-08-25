@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import NavBarComponent from "../components/NavBarComponent";
+import NavBarComponent from "../components/app/NavBarComponent";
 
 export default {
     name: "TheMainLayout",

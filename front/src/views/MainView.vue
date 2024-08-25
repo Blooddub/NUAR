@@ -1,14 +1,20 @@
 <template>
   <div class="main">
-    <h1>Main</h1>
+    <h1>Игры</h1>
+    <ListCardComponent/>
   </div>
 </template>
   
 <script>
-  
+import ListCardComponent from "../components/ListCardComponent"
+
   export default {
     name: 'MainView',
-    components: {}
+    data() {
+        return {
+        }  
+    },
+    components: {ListCardComponent}
   }
   </script>
   
